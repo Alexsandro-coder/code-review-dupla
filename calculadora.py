@@ -6,7 +6,7 @@ def calc(a, b, op):
     elif op == "mult":
         return a * b
     elif op == "div":
-        return a / b
+        return a / b if b != 0 else "Erro: divisão por zero"
 
 
 if __name__ == "__main__":
