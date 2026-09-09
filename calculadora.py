@@ -14,3 +14,4 @@ if __name__ == "__main__":
     print(calc(10, 5, "sub"))
     print(calc(10, 5, "mult"))
     print(calc(10, 5, "div"))
+    print(calc(10, 0 ,"div"))
