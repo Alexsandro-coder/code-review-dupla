@@ -7,6 +7,8 @@ def calc(a, b, op):
         return a * b
     elif op == "div":
         return a / b if b != 0 else "Erro: divisão por zero"
+    elif op == "pot":
+        return a ** b
 
 
 if __name__ == "__main__":
